@@ -2,7 +2,11 @@ name: Build pico-mac
 
 on:
   push:
+    branches:
+      - my-pico-mac-1.0
   pull_request:
+    branches:
+      - my-pico-mac-1.0
   release:
     types: [published]
   check_suite:
